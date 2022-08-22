@@ -1,0 +1,224 @@
+*{
+    font-weight: 100;
+    background: rgb(15, 15, 15);
+}
+
+.nav-ul-responsive {
+    display: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    padding: 12px;
+
+}
+
+.nav-ul {
+    text-align: end;
+    width: 100%;
+    background: rgb(15, 15, 15);
+    
+}
+.nav-ul-li {
+    display: inline-block;
+    margin-right: 100px;
+    background: rgb(15, 15, 15);
+}
+.titulo {
+    display: inline-block;
+    border: 1px solid white;
+    text-align: center;
+    background: rgb(15, 15, 15);
+    width:130px;
+    height: 20px;
+}
+
+.container {
+    display: flex;
+    background: rgb(15, 15, 15);
+    justify-content: space-around;
+}
+
+.caja0 {
+    display: inline-block;
+    color: white;
+    margin-top: 200px;
+    margin-left: 20px;
+    width:600px;
+    font-size: 20px;
+}
+
+.texto {
+   width: 250px;
+   margin-top: 30px; 
+}
+
+.texto2 {
+   margin-top: 30px;
+}
+
+.caja1 {
+    display: inline-block;
+    width: 750px;
+    min-width: 500px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+.caja2{
+    display: inline-block;
+    position: absolute;
+    background: rgb(15, 15, 15);
+    width: 350px;
+    height: 110px;
+    margin-top: -7%;
+    margin-left: 60%;
+    color: white;
+    box-shadow:0px 5px 7px 0px black;
+}
+
+.caja2-foto img {
+    display: flex;
+    border-radius:50%;
+    margin: 10px;
+    width: 50px;
+}
+
+.caja2-texto0 {
+    margin-top: -50px;
+    margin-left: 80px;
+    font-size: 10px;
+}
+
+.caja2-texto {
+    font-size: 10px;
+    width: 200px;
+    margin-left: 5px;
+}
+
+.nav-ul-li:hover > a {
+    color: grey;
+}
+
+.button-responsive {
+    position: absolute;
+    width: 100%;
+    margin-top: -64px;
+}
+
+.button {
+    color: white;
+    width: 100%;
+    font-size: 25px;
+    text-align: end;
+    margin-right: 25px;
+    z-index: 100;
+}
+
+.footer {
+    background: rgb(15, 15, 15);
+    color: grey;
+    text-align: center;
+    width: 100%;
+    
+}
+@media only screen and (max-width: 820px) {
+
+.nav-ul {
+    display: none;
+}
+
+.titulo {
+    z-index: 100;
+    width: 150px;
+    height: 20px;
+    min-width: 120px;
+}
+.nav {
+    width: 100%;
+    height: 37px;
+
+}
+
+.nav-ul-responsive {
+    display:block;
+    position: relative;
+    width: 100%;
+    min-width: 500px;
+    height: 37px;
+}
+
+.div-responsive {
+    position: relative;
+    height: 100vh;
+    top: -1200px;
+    background-color: rgb(21, 22, 22);
+    transition: all 2s;
+    width: auto;
+}
+
+.nav-responsive-li {
+    width: 100%;
+    text-align: center;
+    padding-top: 120px;
+
+    background-color: rgb(21, 22, 22);
+}
+
+.button:hover {
+    color: grey;
+}
+
+.nav-responsive-li a {
+    color: white;
+    font-size: 30px;
+}
+
+.nav-responsive-li:hover > a {
+    color: grey;
+} 
+
+.nav-ul-responsive:hover > .div-responsive {
+    top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container {
+        flex-direction: column;
+    }
+
+.caja0 {
+    margin-left: 20px;
+    width: 100%;
+
+}
+
+.caja1 {
+    margin-left: 20px;
+    width: 100%;
+}
+.caja2 {
+    width: 300px;
+    height: 110px;
+    margin-left: 30%;
+    margin-top: -20%;
+}
+}
