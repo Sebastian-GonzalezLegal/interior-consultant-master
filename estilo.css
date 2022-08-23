@@ -144,7 +144,7 @@ a {
     min-width: 120px;
 }
 .nav {
-    width: 100%;
+    width: 80%;
     height: 37px;
 
 }
@@ -190,16 +190,6 @@ a {
 .nav-ul-responsive:hover > .div-responsive {
     top: 0px;
 }
-
-
-
-
-
-
-
-
-
-
 
 .container {
         flex-direction: column;
