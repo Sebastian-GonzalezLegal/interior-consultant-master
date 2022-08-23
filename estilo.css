@@ -144,7 +144,7 @@ a {
     min-width: 120px;
 }
 .nav {
-    width: 700%;
+    width: 100%;
     height: 37px;
 
 }
@@ -152,7 +152,7 @@ a {
 .nav-ul-responsive {
     display:block;
     position: relative;
-    width: 70%;
+    width: 100%;
     min-width: 500px;
     height: 37px;
 }
