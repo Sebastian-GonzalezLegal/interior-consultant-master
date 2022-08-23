@@ -67,7 +67,7 @@ a {
 .caja1 {
     display: inline-block;
     width: 750px;
-    min-width: 500px;
+    min-width: 400px;
     justify-content: center;
     margin-top: 100px;
     margin-right: 80px;
